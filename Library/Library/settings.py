@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'Library.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', 
-        'NAME': 'library',
+        'NAME': 'library', # rudhrayapankaj$Library
         'USER': 'root',
         'PASSWORD': 'P@nkaj9096',
         'HOST': 'localhost',   # Or an IP Address that your DB is hosted on

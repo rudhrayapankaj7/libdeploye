@@ -1,14 +1,70 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Book</title>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-</head>
-<body>
-    <h1 style="color: red;"> <center> Library Home Page </center> </h1> <hr>
 
-    &nbsp;&nbsp; <h3> <center> &nbsp   Book Form(Bootstrap )</center> </h3>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> 
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+
+ <!-- To link our css to HTML -->
+ <!-- <link rel="stylesheet" href="gallery2.css"> -->
+
+ <!-- Latest compiled and minified CSS -->
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bo
+  otstrap.min.css" integrity="sha384-
+  BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossori
+  gin="anonymous">
+
+
+ <!-- For Font Awesome (icons) -->
+ <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" i
+  ntegrity="sha384-
+  lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+
+ <style type="text/css">
+.jumbotron {
+  position: relative;
+  background:none;
+}
+.jumbotron:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(https://image.shutterstock.com/image-illustration/bookshelves-library-old-books-3d-260nw-1530516716.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+  background-size: cover;
+    width: 100%;
+    height: 100%;
+    opacity : 0.2;
+    z-index: -1;
+}
+
+body {
+ background-image: url("paper.gif");
+ background-color: #cccccc;
+}
+
+
+
+
+ </style>
+
+
+
+</head>
+
+<!-- <img src="https://images.unsplash.com/photo-1507842217343-583bb7270b66?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bGlicmFyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" class="img-fluid" alt="Responsive image">  -->
+<body>   
+    <div class="jumbotron pt-6">
+    <h1 class="display-4" style="color: rgb(92, 9, 9);"> <center> LIBRARY HOME PAGE </center> </h1>
+     </div>
+  </div>
+
+     
+
+    &nbsp;&nbsp; <h3> <center> BOOK FORM</center></h3>
 
      <form action="/save-book/" method="POST">
 
